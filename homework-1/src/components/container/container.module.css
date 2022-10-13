@@ -8,15 +8,16 @@
 body {
     background-color: rgb(225, 231, 239);
     font-family: 'Montserrat', sans-serif;
+    color: #333;
     
 }
 
-.containerApp {
+.container {
     max-width: 1400px;
     margin: 0 auto;
     padding: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    flex-direction: column;
 }

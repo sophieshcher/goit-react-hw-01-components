@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types';
 import styles from './profile.module.css'
 
+
 export default function Portfolio({photoURL, userName, userTag, userLocation, quantityOfFolowers, quantityOfViews, quantityOfLikes}) {
     return(
         <div className={styles.card}>
